@@ -15,7 +15,7 @@ Source0:        http://alastairs-place.net/2007/03/netifaces/netifaces-0.5.tar.g
 BuildRoot:      %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
 BuildRequires:  python2-devel
-BuildRequires:  python-setuptools-devel
+BuildRequires:  python-setuptools
 
 Requires:       python2
 
